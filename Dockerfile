@@ -5,7 +5,7 @@ FROM adoptopenjdk/openjdk11:alpine-jre
 # Simply the artifact path
 ARG artifact=target/spring-boot-web.jar
 
-COPY ${artifact} app.jar
+COPY ${artifact} calc.jar
 
 # This should not be changed
 ENTRYPOINT ["java","-jar","app.jar"]
