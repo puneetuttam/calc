@@ -1,7 +1,7 @@
 piVersion: v1
 kind: Service
 metadata:
-  name: spring-boot-app-service
+  name: calc-service
 spec:
   type: LoadBalancer
   ports:
@@ -10,4 +10,4 @@ spec:
     targetPort: 8080
     protocol: TCP
   selector:
-    app: spring-boot-app
+    app: calc-app
