@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: calc
-        image: puneetuttam/calc:image25
+        image: puneetuttam/calc:image26
         ports:
         - containerPort: 8080
